@@ -27,7 +27,20 @@
   
   <body onload = "startTime()">
   
-  
+  <div id="email" onclick="showhide()">show my email</div>
+    <script>
+      var shown = false;
+      function showhide(){
+  if (shown){
+      document.getElementById('email').innerHTML = "show my email";
+    shown = false;
+    }else{
+    var myemail = "<a href='mailto:phu"+ "@" + "udayton.edu'>phu" +      "@" + "udayton.edu</a>";
+    //alert("myemail="+myemail);
+      document.getElementById('email').innerHTML= myemail;
+      shown = true;
+    }
+}
   <div id="clock"></div>
 
 </body>
