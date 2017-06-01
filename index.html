@@ -19,29 +19,28 @@
   <h3>I'm an adventurer</h3>
 </div>
   
-  <script>
-  function startTime(){
-    document.getElementById('clock').innerHTML = new Date();
-  }
-  </script>
+ 
+  
+      <script>
+      var shown = false;
+      function showhide(){
+      if (shown){
+      document.getElementById('email').innerHTML = "show my email";
+      shown = false;
+      }else{
+      var myemail = "<a href='mailto:phu"+ "@" + "udayton.edu'>phu" +      "@" + "udayton.edu</a>";
+      //alert("myemail="+myemail);
+      document.getElementById('email').innerHTML= myemail;
+      shown = true;
+     }
+    }
+    </script>
   
   <body onload = "startTime()">
   
   <div id="email" onclick="showhide()">show my email</div>
-    <script>
-      var shown = false;
-      function showhide(){
-  if (shown){
-      document.getElementById('email').innerHTML = "show my email";
-    shown = false;
-    }else{
-    var myemail = "<a href='mailto:phu"+ "@" + "udayton.edu'>phu" +      "@" + "udayton.edu</a>";
-    //alert("myemail="+myemail);
-      document.getElementById('email').innerHTML= myemail;
-      shown = true;
-    }
-}
-  <div id="clock"></div>
+
+  
 
 </body>
 </html>
