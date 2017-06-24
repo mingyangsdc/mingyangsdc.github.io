@@ -1,1 +1,0 @@
-# mingyangsdc.github.io

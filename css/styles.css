@@ -1,0 +1,56 @@
+
+body{
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+	
+}
+.main{
+	padding: 30px;
+}
+.footer{
+	font-size: 10px;
+	color: #999999;
+	background-color: #eeeeee;
+	padding: 20px;
+	border-top: 1px solid #999999;
+}
+nav{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #eeeeee;
+	border-bottom: 1px solid #999999;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 18px;
+}
+nav a{
+	color: #5e2996;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.title{
+	font-size: 20px;
+}
+.gallery-table{
+	width 100%;
+	background-color: #eeeeee;
+}
+.gallery-table td{
+	width: 33%;
+}
+.gallery-table td img{
+	width: 100%;
+}
+.my-email{
+	font-size; 30px;
+	color: red;
+	display: none;
+}
+#clock{
+	font-size: 50px;
+}
